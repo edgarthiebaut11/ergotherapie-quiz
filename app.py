@@ -22,7 +22,7 @@ elif max_questions == 1:
     st.markdown("<span style='color:#2563eb; font-weight:bold;'>Une seule question disponible dans cette sélection.</span>", unsafe_allow_html=True)
     num_questions = 1
 else:
-    num_questions = st.slider("Nombre de questions", 1, max_questions, min(3, max_questions))
+    num_questions = st.slider("Nombre de questions", 1, max_questions, max_questions)
 
 # Initialisation des questions dans la session
 if 'questions' not in st.session_state or st.session_state.get('last_categories') != selected_categories or st.session_state.get('last_num_questions') != num_questions:
@@ -31,55 +31,88 @@ if 'questions' not in st.session_state or st.session_state.get('last_categories'
         st.session_state.last_categories = selected_categories.copy()
         st.session_state.last_num_questions = num_questions
 
+# Initialisation de l'index de question dans la session
+if 'question_idx' not in st.session_state:
+    st.session_state.question_idx = 0
+
 questions = st.session_state.questions
+num_questions = len(questions)
 
-# Stats
-score = 0
+# Navigation
+col1, col2, col3 = st.columns([1, 6, 1])
+with col1:
+    if st.button("⬅️", key="prev") and st.session_state.question_idx > 0:
+        st.session_state.question_idx -= 1
+with col3:
+    if st.button("➡️", key="next") and st.session_state.question_idx < num_questions - 1:
+        st.session_state.question_idx += 1
 
-st.title("Quiz d'Ergothérapie")
+row = questions.iloc[st.session_state.question_idx]
+st.subheader(f"Question {st.session_state.question_idx + 1} / {num_questions}")
+st.write(f"**{row['question']}**")
 
-for i, row in questions.iterrows():
-    st.subheader(f"Q: {row['question']}")
-    options = {
-        'A': row['option_a'],
-        'B': row['option_b'],
-        'C': row['option_c'],
-        'D': row['option_d'],
-    }
-    option_labels = [f"{key}. {value}" for key, value in options.items()]
-    option_keys = list(options.keys())
+options = {
+    'A': row['option_a'],
+    'B': row['option_b'],
+    'C': row['option_c'],
+    'D': row['option_d'],
+}
+option_labels = [f"{key}. {value}" for key, value in options.items()]
+option_keys = list(options.keys())
 
-    # Gérer plusieurs bonnes réponses (séparateur ; ou ,)
-    correct_answers = [x.strip() for x in str(row['correct']).replace(',', ';').split(';') if x.strip()]
-    if len(correct_answers) > 1:
-        # Multi-réponse avec cases à cocher
-        selected_keys = []
-        for key, label in zip(option_keys, option_labels):
-            if st.checkbox(label, key=f"chk_{row['id']}_{key}"):
-                selected_keys.append(key)
-        if st.button(f"Valider la réponse à la question {row['id']}", key=f"btn_{row['id']}", type="primary"):
-            if set(selected_keys) == set(correct_answers):
-                st.success("✅ Bonne réponse !")
-            else:
-                bonnes = ', '.join([f"{k}. {options[k]}" for k in correct_answers])
-                st.markdown(
-                    f"<span style='color:#2563eb; font-weight:bold;'>❌ Mauvaise réponse. "
-                    f"Les bonnes réponses étaient : {bonnes}</span>",
-                    unsafe_allow_html=True
-                )
+correct_answers = [x.strip() for x in str(row['correct']).replace(',', ';').split(';') if x.strip()]
+answered = st.session_state.get(f"answered_{st.session_state.question_idx}", None)
+validated = st.session_state.get(f"validated_{st.session_state.question_idx}", False)
+
+if len(correct_answers) == 1:
+    # Question à réponse unique : boutons radio (ronds)
+    answer_label = st.radio(
+        "Choix :",
+        option_labels,
+        key=f"radio_{st.session_state.question_idx}",
+        index=option_labels.index(f"{answered[0]}. {options[answered[0]]}") if answered else 0,
+        disabled=validated
+    )
+    answer = option_keys[option_labels.index(answer_label)]
+    selected_keys = [answer]
+else:
+    # Question à réponses multiples : cases à cocher (carrés)
+    selected_keys = []
+    for key, label in zip(option_keys, option_labels):
+        checked = answered and key in answered
+        st.checkbox(
+            label,
+            key=f"chk_{st.session_state.question_idx}_{key}",
+            value=checked,
+            disabled=validated
+        )
+        if st.session_state.get(f"chk_{st.session_state.question_idx}_{key}", False):
+            selected_keys.append(key)
+
+if not validated:
+    if st.button(f"Valider la réponse à la question", key=f"btn_{st.session_state.question_idx}", type="primary"):
+        st.session_state[f"answered_{st.session_state.question_idx}"] = selected_keys
+        st.session_state[f"validated_{st.session_state.question_idx}"] = True
+        if set(selected_keys) == set(correct_answers):
+            st.session_state[f"score_{st.session_state.question_idx}"] = True
+        else:
+            st.session_state[f"score_{st.session_state.question_idx}"] = False
+        st.rerun()
+else:
+    # Affiche la correction si déjà validé
+    if st.session_state.get(f"score_{st.session_state.question_idx}", False):
+        st.success("✅ Bonne réponse !")
     else:
-        # Réponse unique
-        answer_label = st.radio("Choix :", option_labels, key=row['id'])
-        answer = option_keys[option_labels.index(answer_label)]
-        if st.button(f"Valider la réponse à la question {row['id']}", key=f"btn_{row['id']}", type="primary"):
-            if answer == correct_answers[0]:
-                st.success("✅ Bonne réponse !")
-            else:
-                st.markdown(
-                    f"<span style='color:#2563eb; font-weight:bold;'>❌ Mauvaise réponse. "
-                    f"La bonne réponse était : {correct_answers[0]}. {options[correct_answers[0]]}</span>",
-                    unsafe_allow_html=True
-                )
+        bonnes = ', '.join([f"{k}. {options[k]}" for k in correct_answers])
+        st.markdown(
+            f"<span style='color:#2563eb; font-weight:bold;'>❌ Mauvaise réponse. "
+            f"Les bonnes réponses étaient : {bonnes}</span>",
+            unsafe_allow_html=True
+        )
 
+score = sum(
+    1 for i in range(num_questions)
+    if st.session_state.get(f"score_{i}", False)
+)
 st.markdown("---")
-st.subheader(f"Score final : {score}/{num_questions}")
+st.subheader(f"Score : {score} / {num_questions}")
