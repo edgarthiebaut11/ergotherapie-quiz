@@ -10,5 +10,14 @@ id,category,question,option_a,option_b,option_c,option_d,correct
 9,Anatomie,Où se trouve l’os scaphoïde ?,Poignet,Cheville,Coude,Épaule,A
 10,Anatomie,Quel est le rôle principal des disques intervertébraux ?,Amortir les chocs,Produire du sang,Transporter l’oxygène,Filtrer les toxines,A
 11,Anatomie,Quel os est situé dans la jambe ?,Humérus,Fémur,Tibia,Radius,B
-12,Bio,Quel est le rôle des mitochondries ?,Synthèse protéique,Stockage d’énergie,Production d’énergie,Régulation du pH,C
-13,Maths,Combien font 5 x 6 ?,28,30,32,36,B
+12,Biologie,Quelle(s) cellule(s) participe(nt) à la réponse immunitaire ?,Lymphocytes,Érythrocytes,Neutrophiles,Thrombocytes,A;C
+13,Biologie,Quel est le rôle principal des mitochondries ?,Synthèse des protéines,Production d'énergie,Détoxification,Division cellulaire,B
+14,Biologie,Quels organes font partie du système digestif ?,Estomac,Pancréas,Rein,Intestin grêle,A;B;D
+15,Biologie,Quelle est la fonction principale des globules rouges ?,Transport de l'oxygène,Défense immunitaire,Transport du CO₂,Coagulation,A;C
+16,Biologie,Quel organe filtre principalement le sang ?,Cœur,Rein,Foie,Poumon,B
+17,Biologie,Le foie remplit quelles fonctions principales ?,Filtration,Stockage du glucose,Sécrétion d’insuline,Production de bile,A;B;D
+18,Biologie,Lesquels sont des neurotransmetteurs ?,Dopamine,Sérotonine,Insuline,GABA,A;B;D
+19,Biologie,Où se déroule la photosynthèse ?,Feuilles,Racines,Chloroplastes,Noyau,A;C
+20,Biologie,Quelle base azotée s’apparie avec la thymine ?,Adénine,Cytosine,Guanine,Uracile,A
+21,Biologie,Quels sont les composants d’une cellule eucaryote ?,Membrane plasmique,Paroi cellulaire,Noyau,Mitochondrie,A;C;D
+

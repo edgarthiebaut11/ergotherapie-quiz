@@ -95,9 +95,13 @@ if not validated:
         st.session_state[f"validated_{st.session_state.question_idx}"] = True
         if set(selected_keys) == set(correct_answers):
             st.session_state[f"score_{st.session_state.question_idx}"] = True
+            # Passage automatique à la question suivante si bonne réponse
+            if st.session_state.question_idx < num_questions - 1:
+                st.session_state.question_idx += 1
+            st.rerun()
         else:
             st.session_state[f"score_{st.session_state.question_idx}"] = False
-        st.rerun()
+            st.rerun()
 else:
     # Affiche la correction si déjà validé
     if st.session_state.get(f"score_{st.session_state.question_idx}", False):
