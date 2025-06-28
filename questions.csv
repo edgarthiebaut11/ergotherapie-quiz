@@ -1,4 +1,14 @@
 id,category,question,option_a,option_b,option_c,option_d,correct
-1,anatomie,Quel os est situé dans le bras ?,Humérus,Fémur,Tibia,Radius,A
-2,bio,Quel est le rôle des mitochondries ?,Synthèse protéique,Stockage d’énergie,Production d’énergie,Régulation du pH,C
-3,maths,Combien font 5 x 6 ?,28,30,32,36,B
+1,Anatomie,Quel os est situé dans le bras ?,Humérus,Fémur,Tibia,Radius,A
+2,Anatomie,Où se trouve la rotule ?,Genou,Hanche,Épaule,Cheville,A
+3,Anatomie,Quel muscle est principal pour la flexion du bras ?,Biceps,Triceps,Deltoïde,Trapèze,A
+4,Anatomie,Combien de vertèbres cervicales possède la colonne vertébrale ?,7,5,12,10,A
+5,Anatomie,Quel nerf innerve les muscles de la face ?,Nerf facial,Nerf vague,Nerf optique,Nerf trijumeau,A
+6,Anatomie,Quel est le plus grand os du corps humain ?,Fémur,Tibia,Humerus,Sacrum,A
+7,Anatomie,Quel organe est protégé par la cage thoracique ?,Poumon,Estomac,Rein,Intestin,A
+8,Anatomie,Lequel de ces muscles est un muscle respiratoire principal ?,Diaphragme,Trapèze,Grand dorsal,Quadriceps,A
+9,Anatomie,Où se trouve l’os scaphoïde ?,Poignet,Cheville,Coude,Épaule,A
+10,Anatomie,Quel est le rôle principal des disques intervertébraux ?,Amortir les chocs,Produire du sang,Transporter l’oxygène,Filtrer les toxines,A
+11,Anatomie,Quel os est situé dans la jambe ?,Humérus,Fémur,Tibia,Radius,B
+12,Bio,Quel est le rôle des mitochondries ?,Synthèse protéique,Stockage d’énergie,Production d’énergie,Régulation du pH,C
+13,Maths,Combien font 5 x 6 ?,28,30,32,36,B
