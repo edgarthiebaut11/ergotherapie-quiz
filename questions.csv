@@ -1,23 +1,141 @@
 id,category,question,option_a,option_b,option_c,option_d,correct
-1,Anatomie,Quel os est situé dans le bras ?,Humérus,Fémur,Tibia,Radius,A;B
-2,Anatomie,Où se trouve la rotule ?,Genou,Hanche,Épaule,Cheville,A
-3,Anatomie,Quel muscle est principal pour la flexion du bras ?,Biceps,Triceps,Deltoïde,Trapèze,A
-4,Anatomie,Combien de vertèbres cervicales possède la colonne vertébrale ?,7,5,12,10,A
-5,Anatomie,Quel nerf innerve les muscles de la face ?,Nerf facial,Nerf vague,Nerf optique,Nerf trijumeau,A
-6,Anatomie,Quel est le plus grand os du corps humain ?,Fémur,Tibia,Humerus,Sacrum,A
-7,Anatomie,Quel organe est protégé par la cage thoracique ?,Poumon,Estomac,Rein,Intestin,A
-8,Anatomie,Lequel de ces muscles est un muscle respiratoire principal ?,Diaphragme,Trapèze,Grand dorsal,Quadriceps,A
-9,Anatomie,Où se trouve l’os scaphoïde ?,Poignet,Cheville,Coude,Épaule,A
-10,Anatomie,Quel est le rôle principal des disques intervertébraux ?,Amortir les chocs,Produire du sang,Transporter l’oxygène,Filtrer les toxines,A
-11,Anatomie,Quel os est situé dans la jambe ?,Humérus,Fémur,Tibia,Radius,B
-12,Biologie,Quelle(s) cellule(s) participe(nt) à la réponse immunitaire ?,Lymphocytes,Érythrocytes,Neutrophiles,Thrombocytes,A;C
-13,Biologie,Quel est le rôle principal des mitochondries ?,Synthèse des protéines,Production d'énergie,Détoxification,Division cellulaire,B
-14,Biologie,Quels organes font partie du système digestif ?,Estomac,Pancréas,Rein,Intestin grêle,A;B;D
-15,Biologie,Quelle est la fonction principale des globules rouges ?,Transport de l'oxygène,Défense immunitaire,Transport du CO₂,Coagulation,A;C
-16,Biologie,Quel organe filtre principalement le sang ?,Cœur,Rein,Foie,Poumon,B
-17,Biologie,Le foie remplit quelles fonctions principales ?,Filtration,Stockage du glucose,Sécrétion d’insuline,Production de bile,A;B;D
-18,Biologie,Lesquels sont des neurotransmetteurs ?,Dopamine,Sérotonine,Insuline,GABA,A;B;D
-19,Biologie,Où se déroule la photosynthèse ?,Feuilles,Racines,Chloroplastes,Noyau,A;C
-20,Biologie,Quelle base azotée s’apparie avec la thymine ?,Adénine,Cytosine,Guanine,Uracile,A
-21,Biologie,Quels sont les composants d’une cellule eucaryote ?,Membrane plasmique,Paroi cellulaire,Noyau,Mitochondrie,A;C;D
-
+1,Anatomie générale et fonctionnelle,Quel os forme la partie proximale du bras ?,Humérus,Fémur,Tibia,Radius,A
+2,Anatomie générale et fonctionnelle,Quel muscle est principalement responsable de la flexion du coude ?,Biceps brachial,Triceps brachial,Deltoïde,Grand pectoral,A
+3,Anatomie générale et fonctionnelle,Quelle structure sépare les cavités thoracique et abdominale ?,Diaphragme,Péricarde,Poumons,Foie,A
+4,Anatomie générale et fonctionnelle,Quel os est le plus long du corps humain ?,Fémur,Humerus,Tibia,Radius,A
+5,Anatomie générale et fonctionnelle,Lequel des organes suivants est un organe lymphatique ?,Rate,Rein,Foie,Estomac,A
+6,Anatomie générale et fonctionnelle,Quelle est la fonction principale des alvéoles pulmonaires ?,Échanges gazeux,Filtration,Production d'hormones,Stockage,A
+7,Anatomie générale et fonctionnelle,Quel os forme la base du crâne ?,Occipital,Frontal,Pariétal,Temporal,A
+8,Anatomie générale et fonctionnelle,Lequel de ces muscles est un muscle de la face ?,Masséter,Deltoïde,Biceps brachial,Trapèze,A
+9,Anatomie générale et fonctionnelle,Combien de vertèbres composent la colonne vertébrale ?,33,24,36,30,A
+10,Anatomie générale et fonctionnelle,Quel nerf contrôle les muscles du diaphragme ?,Nerf phrénique,Nerf sciatique,Nerf ulnaire,Nerf vague,A
+11,Physiologie,Quelle hormone régule la glycémie ?,Insuline,Adrénaline,Thyroxine,Cortisol,A
+12,Physiologie,Lequel de ces organes produit la bile ?,Foie,Estomac,Pancréas,Rate,A
+13,Physiologie,Quel ion est essentiel pour la contraction musculaire ?,Calcium,Sodium,Potassium,Chlore,A
+14,Physiologie,Quel est le rôle principal des globules rouges ?,Transport de l'oxygène,Combattre les infections,Coagulation sanguine,Régulation hormonale,A
+15,Physiologie,Quelle partie du cerveau contrôle la respiration ?,Bulbe rachidien,Cortex,Cervelet,Thalamus,A
+16,Physiologie,Lequel de ces systèmes est responsable de la défense immunitaire ?,Système lymphatique,Système nerveux,Système digestif,Système endocrinien,A
+17,Physiologie,Quel organe est principalement responsable de la filtration du sang ?,Rein,Rate,Foie,Poumon,A
+18,Physiologie,Quelle glande endocrine est située dans le cou ?,Thyroïde,Pancréas,Hypophyse,Thymus,A
+19,Physiologie,Lequel des suivants est un neurotransmetteur excitateur ?,Glutamate,GABA,Dopamine,Serotonine,A
+20,Physiologie,Quelle est la fonction principale des reins ?,Élimination des déchets,Production d'insuline,Stockage des vitamines,Filtration de l'air,A
+21,Neuro-anatomie,Quelle structure relie les deux hémisphères cérébraux ?,Corps calleux,Hippocampe,Thalamus,Amigdale,A
+22,Neuro-anatomie,Où se trouve le cervelet ?,À la base du cerveau,Au-dessus du cortex,Dans la moelle épinière,Derrière les yeux,A
+23,Neuro-anatomie,Quel nerf est responsable de la vision ?,Nerf optique,Nerf olfactif,Nerf auditif,Nerf trijumeau,A
+24,Neuro-anatomie,Quel lobe cérébral est associé à la mémoire ?,Lobe temporal,Lobe occipital,Lobe pariétal,Lobe frontal,A
+25,Neuro-anatomie,Quel neurotransmetteur est impliqué dans la régulation de l'humeur ?,Sérotonine,Dopamine,Acétylcholine,GABA,A;B
+26,Neuro-anatomie,Quelle partie du système nerveux central contrôle l'équilibre ?,Cervelet,Cortex,Tronc cérébral,Moelle épinière,A
+27,Neuro-anatomie,Quel nerf crânien innerve les muscles de la face ?,Nerf facial,Nerf vague,Nerf glossopharyngien,Nerf hypoglosse,A
+28,Neuro-anatomie,Lequel des suivants est une fonction du thalamus ?,Relais sensoriel,Régulation hormonale,Contrôle moteur,Vision,A
+29,Neuro-anatomie,Quel segment de la moelle épinière innerve les membres supérieurs ?,Cervical,Thoracique,Lombaire,Sacré,A
+30,Neuro-anatomie,Quelle structure est affectée dans la maladie de Parkinson ?,Substance noire,Cortex moteur,Hippocampe,Thalamus,A
+31,Psychologie du développement et de la santé,À quel stade Piaget un enfant commence-t-il à penser de façon abstraite ?,Stade des opérations formelles,Stade sensorimoteur,Stade préopératoire,Stade concret,A
+32,Psychologie du développement et de la santé,Quelle théorie explique le développement moral par des stades ?,Kohlberg,Freud,Erikson,Pavlov,A
+33,Psychologie du développement et de la santé,Quel trouble est caractérisé par des épisodes dépressifs majeurs ?,Dépression majeure,Schizophrénie,Trouble bipolaire,Anxiété,A
+34,Psychologie du développement et de la santé,Quel neurotransmetteur est souvent associé à la dépression ?,Sérotonine,Dopamine,Acétylcholine,GABA,A
+35,Psychologie du développement et de la santé,Quelle phase du développement selon Erikson concerne l'adolescence ?,Identité vs confusion,Réalisation vs échec,Intimité vs isolement,Autonomie vs honte,A
+36,Psychologie du développement et de la santé,Lequel de ces troubles appartient aux troubles anxieux ?,Phobie sociale,Schizophrénie,Trouble obsessionnel-compulsif,Manie,A;C
+37,Psychologie du développement et de la santé,Quel est l'effet placebo ?,Amélioration par croyance,Effet secondaire négatif,Effet de la maladie,Réaction allergique,A
+38,Psychologie du développement et de la santé,Quel est le principal neurotransmetteur lié à la récompense ?,Dopamine,Sérotonine,Acétylcholine,GABA,A
+39,Psychologie du développement et de la santé,Quel test évalue le quotient intellectuel ?,Test de Wechsler,Test Rorschach,Test MMPI,Test TAT,A
+40,Psychologie du développement et de la santé,Qu’est-ce que l'attachement sécurisé ?,Relation de confiance avec la figure d'attachement,Relation d'évitement,Relation ambivalente,Relation désorganisée,A
+41,Sociologie et anthropologie de la santé,Quel concept désigne l'étude des relations sociales et de leur impact sur la santé ?,Sociologie de la santé,Anthropologie culturelle,Épidémiologie,Biologie sociale,A
+42,Sociologie et anthropologie de la santé,Quel facteur social influence majoritairement l'accès aux soins ?,Niveau socio-économique,Âge,Sexe,Ethnie,A
+43,Sociologie et anthropologie de la santé,Quel terme décrit la stigmatisation liée à une maladie ?,Discrimination,Préjugé,Exclusion,Ségrégation,A
+44,Sociologie et anthropologie de la santé,Qu'est-ce que la médicalisation ?,Transformation d'un problème social en problème médical,Utilisation abusive de médicaments,Évolution de la médecine,Développement technologique,A
+45,Sociologie et anthropologie de la santé,Quel est l'objet d'étude de l'anthropologie médicale ?,Pratiques de santé et croyances culturelles,Système nerveux,Organisation hospitalière,Maladies infectieuses,A
+46,Sociologie et anthropologie de la santé,Quel sociologue est connu pour ses travaux sur la santé et les inégalités ?,Pierre Bourdieu,Émile Durkheim,Max Weber,Michel Foucault,A
+47,Sociologie et anthropologie de la santé,Qu'est-ce que la prévention primaire ?,Éviter l'apparition de la maladie,Diagnostic précoce,Soins palliatifs,Réhabilitation,A
+48,Sociologie et anthropologie de la santé,Quel modèle théorique étudie les comportements de santé ?,Modèle biopsychosocial,Modèle biomédical,Modèle économique,Modèle écologique,A
+49,Sociologie et anthropologie de la santé,Qu'est-ce que l'équité en santé ?,Justice distributive et accès aux soins pour tous,Égalité stricte,Liberté individuelle,Privatisation des soins,A
+50,Sociologie et anthropologie de la santé,Quel facteur culturel influence la perception de la douleur ?,Les croyances,La génétique,L'alimentation,L'activité physique,A
+51,Pathologies courantes,Quelle pathologie est caractérisée par une inflammation des articulations ?,Polyarthrite rhumatoïde,Ostéoporose,Lupus,Arthrose,A
+52,Pathologies courantes,Quel est un symptôme typique de la sclérose en plaques ?,Troubles moteurs,Hypertension,Douleur abdominale,Démence,A
+53,Pathologies courantes,Quelle maladie est liée à une dégénérescence des neurones moteurs ?,Sclérose latérale amyotrophique,Parkinson,Alzheimer,Huntington,A
+54,Pathologies courantes,Quel os est principalement touché par l’ostéoporose ?,Col du fémur,Radius,Crâne,Humérus,A
+55,Pathologies courantes,Quel trouble neurologique cause des tremblements au repos ?,Maladie de Parkinson,Épilepsie,Sclérose en plaques,AVC,A
+56,Pathologies courantes,Quel symptôme est typique de l’AVC ?,Paralysie faciale,Douleur thoracique,Fièvre,Diarrhée,A
+57,Pathologies courantes,Quel est le principal facteur de risque des maladies cardiovasculaires ?,Hypertension,Diabète,Tabagisme,Stress,A;C
+58,Pathologies courantes,Quelle pathologie neurologique est caractérisée par des crises convulsives ?,Épilepsie,Migraine,Sclérose en plaques,Parkinson,A
+59,Pathologies courantes,Quel type d’arthrite est auto-immune ?,Polyarthrite rhumatoïde,Ostéoarthrite,Goutte,Lupus,A
+60,Pathologies courantes,Quel est le signe principal de la maladie d'Alzheimer ?,Trouble de la mémoire,Céphalées,Fièvre,Essoufflement,A
+61,Bases de pharmacologie,Quelle classe de médicaments est utilisée pour réduire la pression artérielle ?,Antihypertenseurs,Antibiotiques,Antidépresseurs,Anticoagulants,A
+62,Bases de pharmacologie,Quel médicament est un anti-inflammatoire non stéroïdien ?,Ibuprofène,Paracétamol,Amoxicilline,Morphine,A
+63,Bases de pharmacologie,Quel médicament est un anticoagulant ?,Warfarine,Aspirine,Ibuprofène,Diazépam,A
+64,Bases de pharmacologie,Quel est le principal effet secondaire des corticostéroïdes ?,Immunosuppression,Hypertension,Douleur,Somnolence,A
+65,Bases de pharmacologie,Quel médicament est utilisé comme analgésique opioïde ?,Morphine,Paracétamol,Ibuprofène,Amoxicilline,A
+66,Bases de pharmacologie,Quel terme décrit la concentration maximale d’un médicament dans le sang ?,Pic plasmatique,Demi-vie,Absorption,Distribution,A
+67,Bases de pharmacologie,Quelle voie d’administration a le plus rapide effet ?,Intraveineuse,Orale,Sous-cutanée,Topique,A
+68,Bases de pharmacologie,Quel organe est principal responsable du métabolisme des médicaments ?,Foie,Rein,Estomac,Intestin,A
+69,Bases de pharmacologie,Qu’est-ce que la demi-vie d’un médicament ?,Temps nécessaire pour réduire la concentration de moitié,Durée totale d’effet,Temps d’absorption,Temps d’élimination,A
+70,Bases de pharmacologie,Quel terme décrit l’interaction entre deux médicaments ?,Synergie,Antagonisme,Additivité,Tous,A;B;C
+71,Anatomie générale et fonctionnelle,Quel os forme la partie distale de la jambe ?,Tibia,Fémur,Radius,Ulna,A
+72,Anatomie générale et fonctionnelle,Quel muscle est responsable de l’extension de la hanche ?,Grand fessier,Quadriceps,Biceps fémoral,Ischio-jambiers,A
+73,Anatomie générale et fonctionnelle,Quel organe est responsable de la production d’insuline ?,Pancréas,Estomac,Rein,Foie,A
+74,Anatomie générale et fonctionnelle,Où se trouve le ligament croisé antérieur ?,Genou,Coude,Hanche,Poignet,A
+75,Anatomie générale et fonctionnelle,Quel est le muscle principal de la respiration ?,Diaphragme,Intercostaux,Trapèze,Abdominaux,A
+76,Anatomie générale et fonctionnelle,Quel os protège le cœur ?,Sternum,Clavicule,Scapula,Rib,A
+77,Anatomie générale et fonctionnelle,Quelle est la fonction principale des valves cardiaques ?,Empêcher le reflux sanguin,Pomper le sang,Produire des hormones,Réguler la pression,A
+78,Anatomie générale et fonctionnelle,Quel nerf innerve le muscle deltoïde ?,Nerf axillaire,Nerf radial,Nerf ulnaire,Nerf médian,A
+79,Anatomie générale et fonctionnelle,Quel os forme l’articulation de la hanche ?,Fémur,Scapula,Humerus,Tibia,A
+80,Anatomie générale et fonctionnelle,Où se situe la moelle épinière ?,Colonne vertébrale,Crâne,Thorax,Abdomen,A
+81,Physiologie,Quel est le rôle principal des plaquettes sanguines ?,Coagulation,Transport de l’oxygène,Combattre les infections,Régulation hormonale,A
+82,Physiologie,Quelle hormone est sécrétée par les glandes surrénales ?,Adrénaline,Insuline,Thyroxine,Ocytocine,A
+83,Physiologie,Quel est le principal ion intracellulaire ?,Potassium,Sodium,Calcium,Chlorure,A
+84,Physiologie,Quelle partie du système nerveux contrôle les réflexes ?,Moelle épinière,Cerveau,Thalamus,Cervelet,A
+85,Physiologie,Quel organe produit l’érythropoïétine ?,Rein,Foie,Poumon,Rate,A
+86,Physiologie,Quel neurotransmetteur est inhibiteur ?,GABA,Glutamate,Dopamine,Sérotonine,A
+87,Physiologie,Quel organe participe à la régulation de la température corporelle ?,Hypothalamus,Cervelet,Foie,Poumon,A
+88,Physiologie,Quelle glande produit l’hormone de croissance ?,Hypophyse,Thyroïde,Pancréas,Surrénales,A
+89,Physiologie,Quel est l’effet de l’adrénaline ?,Augmentation de la fréquence cardiaque,Diminution de la pression artérielle,Relaxation musculaire,Somnolence,A
+90,Physiologie,Quel est le rôle principal des reins ?,Élimination des déchets,Production d’hormones,Contrôle de la température,Régulation nerveuse,A
+91,Neuro-anatomie,Quel est le rôle de l’hippocampe ?,Mémoire,Vision,Audition,Équilibre,A
+92,Neuro-anatomie,Quelle structure produit le liquide céphalo-rachidien ?,Épendyme,Thalamus,Hippocampe,Cervelet,A
+93,Neuro-anatomie,Quel lobe cérébral est responsable de la vision ?,Lobe occipital,Lobe frontal,Lobe pariétal,Lobe temporal,A
+94,Neuro-anatomie,Quel nerf crânien contrôle l’audition ?,Nerf vestibulocochléaire,Nerf optique,Nerf facial,Nerf glossopharyngien,A
+95,Neuro-anatomie,Quel neurotransmetteur est majoritairement excitateur ?,Glutamate,GABA,Dopamine,Sérotonine,A
+96,Neuro-anatomie,Quelle partie du cerveau est responsable de la parole ?,Aire de Broca,Aire de Wernicke,Cervelet,Thalamus,A
+97,Neuro-anatomie,Quelle structure est le centre de contrôle autonome ?,Hypothalamus,Thalamus,Cervelet,Moelle épinière,A
+98,Neuro-anatomie,Quel est le rôle principal des neurones moteurs ?,Transmettre les commandes aux muscles,Recevoir les signaux sensoriels,Réguler les hormones,Produire du myéline,A
+99,Neuro-anatomie,Quel nerf crânien est impliqué dans la sensation du visage ?,Nerf trijumeau,Nerf vague,Nerf optique,Nerf facial,A
+100,Neuro-anatomie,Où se situe la substance noire ?,Mésencéphale,Cortex,Thalamus,Cervelet,A
+101,Psychologie du développement et de la santé,Quel est le stade sensorimoteur selon Piaget ?,0-2 ans,2-7 ans,7-11 ans,11-15 ans,A
+102,Psychologie du développement et de la santé,Quelle théorie parle des stades psychosociaux ?,Erikson,Freud,Pavlov,Kohlberg,A
+103,Psychologie du développement et de la santé,Quel trouble est caractérisé par des épisodes maniaques ?,Trouble bipolaire,Dépression,Schizophrénie,Anxiété,A
+104,Psychologie du développement et de la santé,Quel neurotransmetteur est impliqué dans la motivation ?,Dopamine,Sérotonine,GABA,Acétylcholine,A
+105,Psychologie du développement et de la santé,Qu’est-ce que le conditionnement classique ?,Apprentissage par association,Apprentissage par observation,Apprentissage verbal,Apprentissage social,A
+106,Psychologie du développement et de la santé,Quelle phase du développement concerne l’âge adulte selon Erikson ?,Générativité vs stagnation,Identité vs confusion,Autonomie vs honte,Intimité vs isolement,A
+107,Psychologie du développement et de la santé,Quel trouble est un trouble obsessionnel ?,TOC,Anxiété,Dépression,Phobie,A
+108,Psychologie du développement et de la santé,Quel test psychologique évalue la personnalité ?,MMPI,Wechsler,Rorschach,TAT,A;D
+109,Psychologie du développement et de la santé,Quel neurotransmetteur est lié à l’anxiété ?,GABA,Sérotonine,Dopamine,Acétylcholine,A
+110,Psychologie du développement et de la santé,Qu’est-ce que l’empathie ?,Compréhension des émotions d’autrui,Capacité à raisonner,Expression des émotions,Contrôle moteur,A
+111,Sociologie et anthropologie de la santé,Quelle discipline étudie les comportements de santé ?,Sociologie de la santé,Anthropologie médicale,Biologie,Histoire,A
+112,Sociologie et anthropologie de la santé,Quel facteur influence la santé ?,Niveau socio-économique,Poids,Âge,Sexe,A
+113,Sociologie et anthropologie de la santé,Qu’est-ce que la stigmatisation ?,Discrimination liée à une maladie,Diagnostic médical,Soins infirmiers,Hospitalisation,A
+114,Sociologie et anthropologie de la santé,Qu’est-ce que la prévention secondaire ?,Diagnostic précoce,Éviter la maladie,Soins palliatifs,Réhabilitation,A
+115,Sociologie et anthropologie de la santé,Quelle est la fonction principale de la médecine sociale ?,Réduire les inégalités,Guérir les maladies,Rechercher des traitements,Former les médecins,A
+116,Sociologie et anthropologie de la santé,Qui est un pionnier de la sociologie médicale ?,Talcott Parsons,Michel Foucault,Émile Durkheim,Max Weber,A
+117,Sociologie et anthropologie de la santé,Qu’est-ce que l’équité ?,Justice et égalité adaptées,Égalité stricte,Liberté individuelle,Discrimination,A
+118,Sociologie et anthropologie de la santé,Quel est l’impact du stress social ?,Affaiblissement du système immunitaire,Amélioration cognitive,Gain de poids,Sommeil accru,A
+119,Sociologie et anthropologie de la santé,Quel facteur culturel influence les pratiques de santé ?,Croyances traditionnelles,Alimentation,Génétique,Exercice,A
+120,Sociologie et anthropologie de la santé,"Quel modèle considère les facteurs biologiques, psychologiques et sociaux ?",Modèle biopsychosocial,Modèle biomédical,Modèle écologique,Modèle économique,A
+121,Pathologies courantes,Quelle maladie est caractérisée par la destruction de la myéline ?,Sclérose en plaques,Parkinson,Alzheimer,Huntington,A
+122,Pathologies courantes,Quel symptôme est associé à l’arthrose ?,Douleur articulaire,Fièvre,Essoufflement,Maux de tête,A
+123,Pathologies courantes,Quelle maladie neurologique provoque une perte de mémoire progressive ?,Alzheimer,Sclérose en plaques,Parkinson,AVC,A
+124,Pathologies courantes,Quelle est la cause principale de l’AVC ?,Obstruction vasculaire,Hémorragie digestive,Infection pulmonaire,Tumeur cérébrale,A;B
+125,Pathologies courantes,Quel type de fracture est caractérisé par un os cassé en plusieurs morceaux ?,Fracture comminutive,Fracture simple,Fracture de stress,Fracture ouverte,A
+126,Pathologies courantes,Quelle maladie est auto-immune ?,Lupus,Diabète de type 2,Ostéoporose,Goutte,A
+127,Pathologies courantes,Quel symptôme est typique de la migraine ?,Maux de tête sévères,Essoufflement,Fièvre,Douleur abdominale,A
+128,Pathologies courantes,Quel est le principal facteur de risque du diabète de type 2 ?,Obésité,Tabagisme,Hypertension,Alcoolisme,A
+129,Pathologies courantes,Quel type de douleur est chronique ?,Douleur persistante,Douleur aiguë,Douleur intermittente,Douleur traumatique,A
+130,Pathologies courantes,Quelle est la cause principale de l’ostéoporose ?,Déficit en calcium,Déficit en vitamine C,Déficit en fer,Déficit en vitamine D,A;D
+131,Bases de pharmacologie,Quel médicament est utilisé pour traiter les infections bactériennes ?,Antibiotiques,Antiviraux,Antifongiques,Antiparasitaires,A
+132,Bases de pharmacologie,Quelle classe de médicaments agit sur le système nerveux central ?,Psychotropes,Antihypertenseurs,Antibiotiques,Antidiabétiques,A
+133,Bases de pharmacologie,Quel médicament est un analgésique non opioïde ?,Paracétamol,Morphine,Diazépam,Ibuprofène,A;D
+134,Bases de pharmacologie,Quelle voie d’administration est la plus courante ?,Orale,Intraveineuse,Intramusculaire,Sous-cutanée,A
+135,Bases de pharmacologie,Quel organe élimine principalement les médicaments ?,Rein,Foie,Intestin,Peau,A
+136,Bases de pharmacologie,Quel terme décrit la dose minimale efficace ?,Dose thérapeutique,Dose létale,Dose toxique,Dose maximale,A
+137,Bases de pharmacologie,Quel médicament est un anti-dépresseur ?,ISRS,Insuline,Warfarine,Ibuprofène,A
+138,Bases de pharmacologie,Quel médicament est utilisé comme anxiolytique ?,Benzodiazépines,Antibiotiques,Antihypertenseurs,Anticoagulants,A
+139,Bases de pharmacologie,Quel terme décrit la vitesse à laquelle un médicament est éliminé ?,Demi-vie,Absorption,Distribution,Métabolisme,A
+140,Bases de pharmacologie,Quel est l’effet principal des bêta-bloquants ?,Réduction de la fréquence cardiaque,Augmentation de la pression artérielle,Relaxation musculaire,Augmentation du métabolisme,A
