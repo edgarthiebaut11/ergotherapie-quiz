@@ -1,5 +1,5 @@
 id,category,question,option_a,option_b,option_c,option_d,correct
-1,Anatomie,Quel os est situé dans le bras ?,Humérus,Fémur,Tibia,Radius,A
+1,Anatomie,Quel os est situé dans le bras ?,Humérus,Fémur,Tibia,Radius,A;B
 2,Anatomie,Où se trouve la rotule ?,Genou,Hanche,Épaule,Cheville,A
 3,Anatomie,Quel muscle est principal pour la flexion du bras ?,Biceps,Triceps,Deltoïde,Trapèze,A
 4,Anatomie,Combien de vertèbres cervicales possède la colonne vertébrale ?,7,5,12,10,A
