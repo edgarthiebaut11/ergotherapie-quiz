@@ -48,7 +48,7 @@ with col3:
         st.session_state.question_idx += 1
 
 row = questions.iloc[st.session_state.question_idx]
-st.subheader(f"Question {st.session_state.question_idx + 1} / {num_questions}")
+st.subheader(f"Question {st.session_state.question_idx + 1} / {num_questions} — {row['category']}")
 st.write(f"**{row['question']}**")
 
 options = {
@@ -104,12 +104,20 @@ else:
     if st.session_state.get(f"score_{st.session_state.question_idx}", False):
         st.success("✅ Bonne réponse !")
     else:
-        bonnes = ', '.join([f"{k}. {options[k]}" for k in correct_answers])
-        st.markdown(
-            f"<span style='color:#2563eb; font-weight:bold;'>❌ Mauvaise réponse. "
-            f"Les bonnes réponses étaient : {bonnes}</span>",
-            unsafe_allow_html=True
-        )
+        if len(correct_answers) == 1:
+            bonne = correct_answers[0]
+            st.markdown(
+                f"<span style='color:#2563eb; font-weight:bold;'>❌ Mauvaise réponse. "
+                f"La bonne réponse était : {bonne}. {options[bonne]}</span>",
+                unsafe_allow_html=True
+            )
+        else:
+            bonnes = ', '.join([f"{k}. {options[k]}" for k in correct_answers])
+            st.markdown(
+                f"<span style='color:#2563eb; font-weight:bold;'>❌ Mauvaise réponse. "
+                f"Les bonnes réponses étaient : {bonnes}</span>",
+                unsafe_allow_html=True
+            )
 
 score = sum(
     1 for i in range(num_questions)
