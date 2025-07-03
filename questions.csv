@@ -138,4 +138,44 @@ id,category,question,option_a,option_b,option_c,option_d,correct
 137,Bases de pharmacologie,L’adrénaline est utilisée en cas :,D’allergie grave,De migraine,D’anémie,De déshydratation,A
 138,Bases de pharmacologie,Le médicament "placebo" contient :,Une faible dose de médicament,Une substance active,Une substance inactive,Un excipient actif,C
 139,Bases de pharmacologie,Le rein intervient principalement dans :,La digestion,La filtration et l’excrétion des médicaments,La production des hormones digestives,La transformation du glucose,B
-140,Bases de pharmacologie,Un médicament est contre-indiqué quand :,Il n’est pas efficace,Il est trop cher,Il présente un risque supérieur au bénéfice dans un contexte donné,Il est prescrit par deux médecins différents,C                                                                      
+140,Bases de pharmacologie,Un médicament est contre-indiqué quand :,Il n’est pas efficace,Il est trop cher,Il présente un risque supérieur au bénéfice dans un contexte donné,Il est prescrit par deux médecins différents,C
+141,Os du corps humain,Quel os est le plus long du corps humain ?,Radius,Humerus,Tibia,Fémur,D
+142,Os du corps humain,Où se situe l'ulna ?,Poignet,Jambe,Cuisse,Avant-bras,D
+143,Os du corps humain,Quel os protège le cœur ?,Clavicule,Sternum,Côtes,Scapula,B
+144,Os du corps humain,Quel os est situé dans la cuisse ?,Tibia,Fibula,Fémur,Patella,C
+145,Os du corps humain,Lequel de ces os est un os plat ?,Fémur,Phalange,Omoplate,Radius,C
+146,Os du corps humain,Où se trouve le calcaneum ?,Main,Pied,Poignet,Jambe,B
+147,Os du corps humain,Quel os s'articule avec l'humérus ?,Scapula,Radius,Ulna,Clavicule,A
+148,Os du corps humain,Lequel est un os court ?,Tibia,Clavicule,Fémur,Carpe,D
+149,Os du corps humain,Quel os forme la partie postérieure du crâne ?,Temporal,Frontal,Occipital,Pariétal,C
+150,Os du corps humain,Quel os forme la partie antérieure du thorax ?,Clavicule,Omoplate,Sternum,Rib,C
+151,Os du corps humain,Lequel de ces os n’appartient pas au bras ?,Radius,Humerus,Fibula,Ulna,C
+152,Os du corps humain,Où se trouve le scapula ?,Poignet,Coude,Hanche,Épaule,D
+153,Os du corps humain,Quel os protège le cerveau ?,Sternum,Omoplate,Crâne,Clavicule,C
+154,Os du corps humain,Quels os composent la jambe ?,Patella,Fibula,Tibia,Fémur,C;D
+155,Os du corps humain,Quels os forment la colonne vertébrale ?,Sacrum,Vertèbres thoraciques,Vertèbres cervicales,Clavicule,A;B;C
+156,Os du corps humain,Quels sont les os du carpe ?,Trapèze,Hamatum,Scaphoïde,Lunatum,A;B;C;D
+157,Os du corps humain,Quels os composent la face ?,Zygomatique,Mandibule,Maxillaire,Frontal,A;B;C;D
+158,Os du corps humain,Quels os participent à la formation de la ceinture scapulaire ?,Humérus,Radius,Scapula,Clavicule,C;D
+159,Os du corps humain,Quels os forment la main ?,Phalanges,Métacarpiens,Carpiens,Radius,A;B;C
+160,Os du corps humain,Quel os s'articule avec l'humérus ?,Scapula,Radius,Ulna,Clavicule,A
+161,Fonctionnement des cellules,Quelle organite est responsable de la synthèse des protéines ?,Appareil de Golgi,Lysosome,Ribosome,Mitochondrie,C
+162,Fonctionnement des cellules,Quel composant cellulaire contrôle les échanges entre l'intérieur et l'extérieur de la cellule ?,Noyau,Cytoplasme,Membrane plasmique,Mitochondrie,C
+163,Fonctionnement des cellules,Quel est le rôle du noyau cellulaire ?,Production d'énergie,Synthèse des lipides,Régulation des échanges,Stockage de l'ADN,D
+164,Fonctionnement des cellules,Les lysosomes sont responsables de ?,Synthèse des protéines,Production d'énergie,Digestion intracellulaire,Stockage d'eau,C
+165,Fonctionnement des cellules,Quel organite est impliqué dans la détoxification ?,Lysosome,Peroxysome,Mitochondrie,Ribosome,B
+166,Fonctionnement des cellules,Quelles structures sont responsables de la division cellulaire ?,Mitochondries,Lysosomes,Ribosomes,Centrioles,D
+167,Fonctionnement des cellules,Le cytosquelette est impliqué dans ?,Maintien de la forme cellulaire,Séparation des chromosomes,Mouvement cellulaire,Stockage d'énergie,A;C;B;D
+168,Fonctionnement des cellules,Quel est le rôle de l'appareil de Golgi ?,Dégradation des déchets,Synthèse de l'ADN,Modification et tri des protéines,Production d'énergie,C
+169,Fonctionnement des cellules,Les ribosomes peuvent être trouvés ?,Attachés au réticulum endoplasmique et libres dans le cytoplasme,Membrane plasmique,Noyau,Mitochondrie,A
+170,Fonctionnement des cellules,Quelle est la principale différence entre cellule procaryote et eucaryote ?,Présence de mitochondries,Présence d'un noyau,Présence de ribosomes,Présence de membrane plasmique,B
+171,Fonctionnement des cellules,Quelle molécule transporte l'information génétique ?,ARN,ADN,Protéines,Lipides,B
+172,Fonctionnement des cellules,Quel type de transport nécessite de l'énergie ?,Diffusion simple,Osmose,Transport actif,Diffusion facilitée,C
+173,Fonctionnement des cellules,La membrane plasmique est composée principalement de ?,Glucides,Lipides et protéines,Acides nucléiques,ADN,B
+174,Fonctionnement des cellules,L'ADN est situé principalement dans ?,Le noyau,Le cytoplasme,La membrane plasmique,Mitochondrie,A
+175,Fonctionnement des cellules,Quelle structure produit de l'ATP ?,Noyau,Mitochondrie,Ribosome,Lysosome,B
+176,Fonctionnement des cellules,Le réticulum endoplasmique rugueux est associé à ?,La synthèse des lipides,La dégradation des déchets,La synthèse des protéines,La production d'énergie,C
+177,Fonctionnement des cellules,La diffusion est un type de transport ?,Passif,Énergétique,Actif,Spécifique,A
+178,Fonctionnement des cellules,Les cellules végétales possèdent ?,Des lysosomes,Une membrane nucléaire,Une paroi cellulaire,Des centrioles,C
+179,Fonctionnement des cellules,Quel rôle joue l'ARN messager ?,Synthèse des lipides,Production d'énergie,Transfert de l'information génétique,Dégradation des déchets,C
+180,Fonctionnement des cellules,Quelle est la fonction principale des mitochondries ?,Synthèse des protéines,Dégradation des déchets,Production d'énergie,Stockage de l'ADN,C
